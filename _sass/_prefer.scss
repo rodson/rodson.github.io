@@ -24,26 +24,31 @@ footer {
   .main-title {
     font-family: 'Roboto', 'Helvetica', 'Neue', 'Arial', sans-serif;
     text-transform: uppercase;
-    margin-top: 70px;
+    margin-top: 60px;
     display: inline-block;
-    font-size: 46px;
+    font-size: 42px;
     padding: 12px 20px;
     border: 6px solid #fff;
-    font-weight: 500;
+    font-weight: 700;
+    letter-spacing: 5px;
     color: #fff;
   }
 
 }
 
 .about {
+  width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin: 0 auto;
   text-align: center;
 
   .title {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     text-align: center;
+    font-size: 18px;
     color: #239B90;
-    font-size: 22px;
     margin-bottom: 24px;
   }
 
@@ -58,10 +63,13 @@ footer {
     font-size: 38px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.7);
-    }
+    margin-bottom: 10px;
+  }
 
   .intro {
-
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
   }
 }
 
@@ -71,14 +79,43 @@ footer {
   text-align: center;
 
   .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     text-align: center;
     color: #239B90;
-    font-size: 22px;
     margin-bottom: 24px;
   }
 
-  .intro {
+  .item-group {
+    .item {
+      cursor: pointer;
+      font-size: 40px;
+      color: #666666;
+      margin: 0 20px;
 
+      &:hover {
+        a {
+          color: #b2b2b2;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #666666;
+      }
+    }
+  }
+}
+
+.home {
+  .page-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #239B90;
+    font-size: 18px;
+    margin-bottom: 24px;
   }
 }
 
@@ -90,9 +127,28 @@ footer {
     .navbar-header {
 
       a.navbar-brand {
-        color: #fff;
-        font-size: 30px;
+        i {
+          color: #fff;
+          font-size: 36px;
+        }
       }
     }
+  }
+
+  .main-bg {
+
+    .main-title {
+      font-size: 72px;
+      border: 9px solid #fff;
+    }
+
+  }
+
+  .about {
+    width: 680px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
