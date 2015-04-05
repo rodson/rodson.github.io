@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="main-bg">
+      <div class="main-title">
+        Hacker Mind
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="about">
+      <div class="title">
+        About
+      </div>
+      <img class="avatar" src="/assets/images/avatar.jpg" alt="avatar">
+      <div class="name">
+        Rodson
+      </div>
+      <div class="intro">
+        Programmer
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="contact">
+      <div class="title">
+        Contact
+      </div>
+      <div class="intro">
+        Programmer
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
