@@ -1,8 +1,11 @@
+$primary-color: #512DA8;
+$footer-text-color: #666666;
+
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #512DA8;
-  background-image: linear-gradient(120deg, #3F51B5, #512DA8);
+  background-color: $primary-color;
+  background-image: linear-gradient(120deg, #303F9F, $primary-color);
   padding: 36px 48px;
 }
 
@@ -15,6 +18,79 @@
 .page-header__description {
   font-size: 12px;
   font-family: "Merriweather", serif;
+}
+
+footer {
+  color: $footer-text-color;
+}
+
+.site-footer {
+  padding: 16px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  .footer-container {
+    flex-grow: 1;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .about-container {
+    @extend .footer-container;
+  }
+
+  .footer-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .about-description {
+    font-size: 14px;
+  }
+
+  .about-avatar {
+    box-sizing: border-box;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    float: left;
+  }
+
+  .social-title {
+    @extend .footer-title;
+  }
+
+  .social-container {
+    margin-top: 12px;
+    @extend .footer-container;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .social-item {
+    ul {
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+      padding: 0 8px;
+    }
+
+    a {
+      color: $footer-text-color;
+    }
+  }
+}
+
+.copy-right {
+  margin: 4px 8px;
+  font-size: 14px;
+  color: #999999;
 }
 
 @media screen and (min-width: 505px) {
@@ -43,5 +119,74 @@
   .page-header__description {
     font-size: 18px;
   }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .site-footer {
+    .social-item {
+      li {
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footer-container {
+    flex-grow: 1;
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .site-footer {
+    .social-item {
+      ul {
+        text-align: left;
+      }
+      li {
+        display: block;
+        padding: 3px 0;
+      }
+    }
+
+    .social-container {
+      margin-top: 0px;
+      padding-left: 10%;
+      padding-right: 0;
+    }
+
+    .about-container {
+      .about-wrap {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .social-title {
+      text-align: left;
+    }
+  }
+
+  .icon {
+
+    > svg {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
 
 }

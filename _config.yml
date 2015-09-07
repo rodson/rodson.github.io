@@ -4,7 +4,7 @@ email: rodsonluo@gmail.com
 description: > # learning and building every day.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rodsonluo.com" # the base hostname & protocol for your site
-twitter_username: rodson
+twitter_username: Rodson_Luo
 github_username:  rodson
 
 # Build settings
