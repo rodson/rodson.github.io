@@ -1,7 +1,7 @@
 # Site settings
 title: Rodson Luo
 email: rodsonluo@gmail.com
-description: > # learning and building every day.
+description: > # This is Rodson Luo's website. Let's learn and build every day.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rodsonluo.com" # the base hostname & protocol for your site
 twitter_username: Rodson_Luo
