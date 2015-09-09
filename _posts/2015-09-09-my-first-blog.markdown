@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: "/:title"
 title: "My First Blog"
+permalink: "/:title"
 date: 2015-09-09 23:06
 categories: thought
 ---
@@ -12,18 +12,18 @@ with. However, I finally make a desision to establish a writing habbit.
 
 ##Why I start blogging
 
-As a developer, we always need to learn many technologies to build a stuff. Although we can apply them to our
+As a developer, I always need to learn many technologies to build a stuff. Although I can apply them to my 
 projects, but when others ask me to explain how this works, I often can't explain clearly. So I think writing
-them down is a great way to organize what you learned and get a better understanding of the knowledge. I can
-also review what I have learn whenever I want. If my blog's content is good enough, it will be useful for those
-want to learn this same thing.
+them down is a great way to organize what I have learned and get a better understanding of the knowledge. I can
+also them whenever I want. If my blog's content is good enough, it will be useful for those who want to learn
+this same thing.
 
-It's amazing that we can get almost any information or knowledge through the web. People from all over the world
+It's amazing that we can get almost any information or knowledge through the Internet. With the Internet, people from all over the world
 ard connected each other. Writing blog is a great way to share knowledge and making us more connected. I enjoy
 reading others' blog and often get inpired by their awesome thoughts and amazing ideas. I acquire a lot from their
-great article. So, maybe we can help some body by sharing our thoughts or knowledges. We can make a difference.
+great article. So, maybe we can help others by sharing our thoughts or knowledges. We can make a difference.
 
-Writing make me think. It force me to summary what I've done. If we want to write something useful, we must read
+Writing make me think. It force me to summarize what I've done. If we want to write something useful, we must read
 more, learn more and think more. Our life will be more meaningful.
 
 ##Establish a writting habbit
