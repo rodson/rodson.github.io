@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My First Blog"
-permalink: "/:title"
+permalink: my-first-blog
 date: 2015-09-09 23:06
 categories: thought
 ---
