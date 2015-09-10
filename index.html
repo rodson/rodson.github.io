@@ -7,11 +7,22 @@ layout: home
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h2 class="post-headline">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <div class="post-entry">
+
+            {% if post.content contains '<!--more-->' %}
+                {{ post.content | split:'<!--more-->' | first }}
+            {% else %}
+            {% endif %}
+
+            <a href="{{ post.url }}">&nbsp;>></a>
+        </div>
+
+        <span class="post-meta">{{ post.date | date: "%-d %B %Y" }}</span>
       </li>
     {% endfor %}
   </ul>

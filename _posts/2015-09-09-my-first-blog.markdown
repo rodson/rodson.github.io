@@ -6,7 +6,7 @@ date: 2015-09-09 23:06
 categories: thought
 ---
 I have never thought that I will write my blog because I'm not good at writing and it's one thing I always horrible at. When
-I was in the primary school, what frightened me the most was the exam of writing an article with 800 words.
+I was in the primary<!--more--> school, what frightened me the most was the exam of writing an article with 800 words.
 I just read the article topic over and over again with my blank brain. Wondering what the heck should I start
 with. However, I finally make a decision to establish a writing habbit.
 

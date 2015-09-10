@@ -179,12 +179,24 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #9EABB3;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.post-entry {
+    font-family: "Merriweather", serif;
+    color: #3A4145;
+
+    a {
+        text-decoration: none;
+        color: #3A4145;
+    }
 }
 
 

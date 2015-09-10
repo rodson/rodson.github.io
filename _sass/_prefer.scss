@@ -105,6 +105,23 @@ footer {
   margin: 24px 0;
 }
 
+.post-headline {
+
+  a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline;
+    color: #4A4A4A;
+    font-weight: bold;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    transition: color ease 0.3s;
+
+    &:hover {
+      color: #111;
+    }
+  }
+}
+
 @media screen and (min-width: 505px) {
   .page-header {
     padding: 48px 64px;
@@ -130,6 +147,12 @@ footer {
 
   .page-header__description {
     font-size: 18px;
+  }
+
+  .post-headline {
+    a {
+      font-size: 2.3rem;
+    }
   }
 }
 
@@ -186,6 +209,12 @@ footer {
 
     .social-title {
       text-align: left;
+    }
+  }
+
+  .post-headline {
+    a {
+      font-size: 2.0rem;
     }
   }
 
