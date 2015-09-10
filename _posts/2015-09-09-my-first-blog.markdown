@@ -28,7 +28,7 @@ more, learn more and think more. Our life will be more meaningful.
 
 ##Establish a writting habbit
 
-Since writing can benefit me so much as I mentioned above. I deciside to establish a writting habbit. It's always 
+Since writing can benefit me so much as I mentioned above. I decide to establish a writting habbit. It's always 
 difficult to get started. There is no doubt my blog will suck at the beginning, but I believe practice makes perfect.
 There is still a long way for me to go.
 

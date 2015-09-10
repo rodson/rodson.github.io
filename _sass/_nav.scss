@@ -1,0 +1,41 @@
+.main-nav {
+    padding: 8px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #bfc8cd;
+
+    a.main-nav__home {
+        font-size: 10px;
+        color: #9EABB3;
+        text-transform: uppercase;
+        transition: border ease 0.3s;
+        text-decoration: none;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+
+        .left-arrow {
+            width: 24px;
+            height: 24px;
+            margin-bottom: -8px;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .main-nav {
+        padding: 42px 42px;
+        border-bottom: none;
+
+        a.main-nav__home {
+            border: transparent 1px solid;
+            padding: 10px 14px;
+            font-size: 13px;
+            border-radius: 3px;
+
+            &:hover {
+                border-color: #bfc8cd;
+            }
+        }
+    }
+}
