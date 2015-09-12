@@ -26,9 +26,9 @@ great article. So, maybe we can help others by sharing our thoughts or knowledge
 Writing make me think. It force me to summarize what I've done. If we want to write something useful, we must read
 more, learn more and think more. Our life will be more meaningful.
 
-##Establish a writting habbit
+##Establish a writing habbit
 
-Since writing can benefit me so much as I mentioned above. I decide to establish a writting habbit. It's always 
+Since writing can benefit me so much as I mentioned above. I decide to establish a writing habbit. It's always 
 difficult to get started. There is no doubt my blog will suck at the beginning, but I believe practice makes perfect.
 There is still a long way for me to go.
 
