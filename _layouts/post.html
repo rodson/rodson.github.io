@@ -7,7 +7,7 @@ comments: True
 
   {% include head.html %}
 
-  <body>
+  <body onload="prettyPrint()">
 
     {% include header.html %}
 
@@ -30,6 +30,7 @@ comments: True
       </div>
     </div>
 
+    <script src="/assets/libs/prettify.js"></script>
     {% include footer.html %}
 
   </body>
