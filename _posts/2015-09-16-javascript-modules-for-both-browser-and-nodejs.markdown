@@ -25,6 +25,7 @@ all variables defined outside a function belong to the global scope.
 </pre>
 
 We passed `this` and a `factory` function to the IIFE. The `this` value depends on the running environment. 
+
 <pre class="prettyprint language-js">
 // In browser
 this === window;
