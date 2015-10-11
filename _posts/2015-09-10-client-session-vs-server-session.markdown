@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Client Session vs Server Session"
+title: "Client Session vs. Server Session"
 permalink: client-session-vs-server-session
 date: 2015-09-12 3:06
 categories: session authentication
