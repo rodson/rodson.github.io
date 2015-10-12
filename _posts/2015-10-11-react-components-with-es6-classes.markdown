@@ -8,7 +8,7 @@ categories: react es6 javascript
 
 React is a JavaScript library for creating user interfaces by Facebook. I have learned React for a couple weeks and used it to implement<!--more--> <a href="https://github.com/rodson/react-es6-flux-todolist">TodoMVC</a>. The feature I like most is that we can create React components with ES6+ classes, which provides an elegant way to write OOP code.
 
-In this post, I will create a TextInput Component using both React.createClass method and ES6+ class that extends React.Component. So that we can know the differences between the two ways and have a better understanding of how ES6+ class works.
+In this post, I will create a TextInput Component using both React.createClass method and ES6+ class that extends React.Component. So that we can know the differences between the two and have a better understanding of how ES6+ class works.
 
 ## Using React.createClass method
 
