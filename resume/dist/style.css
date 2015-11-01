@@ -5,10 +5,11 @@
 body {
   font-size: 16px;
   line-height: 29px;
-  color: #333333; }
+  color: #333333;
+  border-box: box-sizing; }
 
 .wrapper {
-  padding: 16px 42px;
+  padding: 16px 36px;
   box-sizing: border-box;
   width: 820px;
   margin: 0 auto; }
@@ -194,7 +195,7 @@ section.info-container .content {
   padding-bottom: 40px;
   padding-left: 50px;
   position: relative;
-  width: 645px; }
+  width: 660px; }
 
 .time {
   margin-left: 32px;

@@ -7,10 +7,11 @@ body {
   font-size: 16px;
   line-height: 29px;
   color: rgb(51, 51, 51);
+  border-box: box-sizing;
 }
 
 .wrapper {
-  padding: 16px 42px;
+  padding: 16px 36px;
   box-sizing: border-box;
   width: 820px;
   margin: 0 auto;
@@ -239,7 +240,7 @@ section.info-container {
     padding-bottom: 40px;
     padding-left: 50px;
     position: relative;
-    width: 645px;
+    width: 660px;
   }
 }
 
