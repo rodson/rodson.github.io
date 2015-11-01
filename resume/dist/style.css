@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px;
+  line-height: 29px;
+  color: #333333; }
+
+.wrapper {
+  padding: 16px 42px;
+  box-sizing: border-box;
+  width: 820px;
+  margin: 0 auto; }
+
+#profile .title {
+  background-color: #c93c67; }
+
+#education .title {
+  background-color: #21b080; }
+
+#education .college {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 12px; }
+
+#education .institute {
+  margin-left: 12px; }
+
+#education .time {
+  margin-left: 32px;
+  font-size: 15px;
+  color: #999;
+  letter-spacing: 1px; }
+
+#experience .title {
+  background-color: #264e59; }
+
+#experience li {
+  margin-bottom: 12px; }
+
+#experience .company {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold; }
+
+#experience .work-type {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 12px; }
+
+#experience .appname {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold; }
+
+#experience .content {
+  position: relative; }
+
+#expertise .title {
+  background-color: #500e4e; }
+
+header {
+  margin-bottom: 36px; }
+  header h1 {
+    color: #000;
+    font-size: 30px;
+    padding-top: 18px;
+    display: inline-block; }
+  header #position {
+    display: inline-block;
+    font-size: 28px;
+    color: #888;
+    margin: 10px; }
+  header .profile-info .item {
+    display: inline-block;
+    margin: 0 6px; }
+    header .profile-info .item .icon {
+      width: 18px;
+      height: 18px;
+      vertical-align: middle; }
+    header .profile-info .item .info {
+      font-size: 14px;
+      vertical-align: middle; }
+
+section.info-container .title {
+  -webkit-font-smoothing: antialiased;
+  background-color: #c93c67;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 23px;
+  line-height: 23px;
+  max-width: 150px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  width: 150px; }
+
+section.info-container .content {
+  margin-top: 30px;
+  margin-bottom: 60px; }
+
+.target-border {
+  -webkit-font-smoothing: antialiased;
+  background-color: #264e59;
+  border-bottom-color: white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-left-color: white;
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-right-color: white;
+  border-right-style: solid;
+  border-right-width: 15px;
+  border-top-color: white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-style: solid;
+  border-top-width: 15px;
+  color: #333333;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  height: 40px;
+  left: -37px;
+  position: absolute;
+  top: -15px;
+  width: 40px;
+  z-index: 1; }
+
+.target-dot {
+  -webkit-font-smoothing: antialiased;
+  background-attachment: scroll;
+  border-bottom-color: white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: white;
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-right-color: white;
+  border-right-style: solid;
+  border-right-width: 10px;
+  border-top-color: white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-style: solid;
+  border-top-width: 10px;
+  color: #333333;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  height: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 10px;
+  z-index: auto; }
+
+#experience .item {
+  -webkit-font-smoothing: antialiased;
+  border-bottom-color: #264e59;
+  border-left-color: #264e59;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-color: #264e59;
+  border-top-color: #264e59;
+  color: #333333;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 30px;
+  margin-left: 13px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  position: relative;
+  width: 645px; }
+
+.time {
+  margin-left: 32px;
+  font-size: 15px;
+  color: #999;
+  letter-spacing: 1px; }
+
+.highlight {
+  color: #000; }
